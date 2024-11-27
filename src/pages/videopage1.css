@@ -1,0 +1,161 @@
+.video_container{
+    position: absolute;
+    transform: translate(0px,-286px);
+    
+}
+.vid_video1{
+    height: 500px;
+    width: 1000px;
+}
+.channel_container{
+    display: flex;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.logo1{
+    display: flex;
+    justify-content: space-between;
+}
+.button_like{
+    display: flex;
+    transform: translate(280px,-2px);
+    margin-left:20px ;
+    border: none;
+}
+#name1{
+    height: 40px;
+    width: 40px;
+    border: 1px solid grey;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 24px;
+    transform: translate(10px,-2px);
+    padding: 5px;
+}
+#channel1{
+  transform: translate(30px,20px);
+}
+.button{
+    transform: translate(30px,25px);
+    height: 40px;
+    width: fit-content;
+    text-align: center;
+   
+    margin-left: 68px;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+.subs{
+    transform:translateY(-19px) ;
+    color: whitesmoke;
+    
+}
+.like{
+    height: 40px;
+    transform: translateY(30px);
+    background-color: rgba(128, 128, 128, 0.304);
+    border-radius: 20px 0px 0px 20px;
+    
+
+}
+.like_icon{
+    background-color: black
+}
+.dislike{
+    height: 40px;
+    transform: translateY(30px);
+    background-color: grey;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+}
+
+.share_but{
+    transform: translate(300px,30px);
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.304);
+    border-radius: 20px;
+    border: none;
+}
+.share{
+    display: flex;
+}
+#share{
+    transform: translateY(-19px);
+    margin-left: 10px;
+    
+    
+
+}
+.share_icon{
+    transform: translateY(-6px);
+    color: black;
+}
+.download{
+   display: flex;
+   
+   border-radius: 20px;
+   width:110px ;
+   background-color: rgba(128, 128, 128, 0.304);
+   
+}
+.download_total{
+    transform: translate(300px);
+    border: none;
+
+}
+.like_num{
+    display: flex;
+}
+#download{
+    transform: translateY(-5px);
+    
+}
+.download_icon{
+    transform: translateY(10px);
+}
+
+#comment{
+    font-size:40px ;
+}
+.videopage_total{
+    display: flex;
+}
+.side_video{
+    position: absolute;
+    float: right;
+    text-align: right;
+    transform: translate(1000px,-270px);
+}
+.Num{
+    transform: translate(2px,-19px);
+    margin-left: 10px;
+}
+.input_box{
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid black;
+    
+    background-color: transparent;
+}
+.cancel_button{
+  margin-right: 20px;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-left: 20px;
+  
+
+
+}
+.cancel_button:hover{
+    background-color: grey;
+}
+.Comment_button{
+    margin-right: 20px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+    background-color: grey;
+    
+  
+}

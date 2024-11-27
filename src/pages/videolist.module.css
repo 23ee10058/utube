@@ -1,0 +1,45 @@
+.vid_container{
+    position: absolute;
+    
+    display: flex;
+}
+.vdo{
+    height: 15rem;
+
+    
+}
+.vid_list{
+    
+}
+.base{
+    display: flex;
+}
+.upload{
+    font-size: 12px;
+}
+.views{
+    font-size: 12px;
+}
+.dot{
+    height: 4px;
+    width: 4px;
+    background-color: black;
+    border-radius: 100%;
+    transform: translateY(3px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title_base{
+    color: black;
+    font:20px bolder  ;
+    font-family: sans-serif;
+}
+.cross{
+    transform: translate(-100px,320px);
+    width: 50px;
+    text-align: center;
+    
+    height: 50px;
+    
+    border-radius: 100%;
+}

@@ -1,0 +1,66 @@
+.draw_container{
+    width: 300px;
+    background: blue;
+    z-index: 2;
+    position: absolute;
+    transform: translateY(-289px);
+    background-color: white;
+    height: 100%;
+    
+    
+    
+}
+
+#text{
+    color: white;
+    margin: 6px;
+    font-family: sans-serif;
+}
+.icon{
+    margin: 4px;
+}
+.container1{
+  background-color: rgb(56, 57, 57);
+  border-bottom-color: white;
+  
+
+}
+.container2{
+    background-color: rgb(56, 57, 57);
+    border-bottom: 1px solid rgb(250, 247, 247);
+    position: absolute;
+    transform: translateY(-6px);
+    width: 300px;
+    display: inline-block;
+    
+}
+.container3{
+    background-color:  rgb(56, 57, 57);
+    transform: translateY(309px);
+    text-align: center;
+}
+.channel{
+    display: flex;
+    margin-bottom: -40px;
+}
+#c{
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 60px;
+    transform: translate(10px,-40px);
+}
+.text1{
+    color: white;
+}
+#channel{
+    color: white;
+    font-size: 30px;
+    transform: translate(20px,-30px);
+}
+.container4{
+    flex-grow: 3;
+    width: 100%;
+    background-color: red;
+
+}

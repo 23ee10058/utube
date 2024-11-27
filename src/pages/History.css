@@ -1,0 +1,23 @@
+.sidebar_hist{
+    position: absolute;
+    height: 100%;
+}
+.whl{
+    position: absolute;
+    left: 110px;
+    bottom: 600px;
+}
+.hist-container{
+    display: flex;
+}
+.text_history{
+    transform: translate(50px,40px);
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.list_vdo1{
+   position: absolute;
+   transform: translateY(280px);
+   width: -webkit-fill-available;
+}

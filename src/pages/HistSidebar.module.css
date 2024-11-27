@@ -1,0 +1,14 @@
+.side_container{
+    transform: translate(4px,-290px);
+    background-color: rgba(36, 33, 33, 0.727);
+    text-align: center;
+    height: inherit;
+    
+}
+.icon{
+    color: whitesmoke;
+}
+.text{
+    color: whitesmoke;
+    font-size: 19px;
+}

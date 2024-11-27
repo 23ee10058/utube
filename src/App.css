@@ -1,0 +1,149 @@
+.container{
+  position: absolute;
+  bottom: 638px;
+  
+  /* border: 1px solid black; */
+  display: flex;
+  
+  background-color: rgba(0, 0, 0,0.7);
+  width: 97.2rem;
+  padding: 5px;
+  
+}
+.burger{
+  color: whitesmoke;
+}
+.logo{
+  color: red;
+  
+}
+.Burger{
+  
+  margin-right: 30px;
+}
+.logo_title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 2px;
+}
+.title{
+  position: relative;
+  bottom: 0px;
+  font-size: 20px;
+  margin-left: 10px;
+  align-items: center;
+  color: whitesmoke;
+}
+.container_1{
+  display: flex;
+  align-items: center;
+}
+.container_2{
+  display: flex;
+  float: right;
+  position: relative;
+  left: 350px;
+  align-items: center;
+  
+  
+}
+.text{
+  height: 30px;
+  width: 32rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(0,0,0);
+  border-radius: 6px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+.search_icon{
+  position: relative;
+  bottom: 0px;
+  font-size: 30px;
+  color: whitesmoke;
+  padding: 5px;
+}
+.mic_icon{
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 5px;
+}
+.container_3{
+  display: flex;
+  align-items: center;
+  float: right;
+  position: relative;
+  left: 550px;
+  
+}
+.video{
+  color: whitesmoke;
+  float: right;
+  padding: 5px;
+  
+
+}
+.app_icon{
+  color: whitesmoke;
+  padding: 5px;
+  margin-left: -150px;
+}
+.user_icon{
+  color: whitesmoke;
+}
+.box{
+  display: flex;
+  border: 2px solid whitesmoke;
+  align-items: center;
+  padding: 6px;
+  height: 20px;
+  margin-left: 8px;
+}
+.sign_in{
+  color: whitesmoke;
+}
+.notification{
+  color: whitesmoke;
+  margin-left: -100px;
+}
+.item{
+  list-style-type: none;
+  width: 520px;
+  transform: translate(0px,20px);
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: italic;
+  border: 1px solid rgba(0, 0, 0,0.3);
+  border-radius: 10px;
+  margin-bottom: 2px;
+  
+  justify-content: center;
+  z-index: 5in;
+
+  
+}
+.google{
+  margin-left: -50px;
+}
+
+.item:hover{
+  background-color: rgba(0, 0, 255,0.3);
+}
+.list{
+  transform: translate(470px,-320px);
+}
+.list_item{
+  position: absolute;
+  
+}
+.list_search{
+  float: right;
+  text-align: center;
+  transform: translateY(8px);
+}
+.list_search:hover{
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
